@@ -6,17 +6,17 @@
     <link rel="stylesheet" href="./bower_components/bootstrap/dist/css/bootstrap.css">
     <link rel="stylesheet" href="./styles/styles.css">
   </head>
-  <body >
+  <body ng-app="sliderPuzzle" ng-controller="gameCtrl" ng-init="init()">
     <div class="slidingpuzzleContainer">
-      <button type="button" name="button" id="sample">1</button>
-      <button type="button" name="button" id="sample">2</button>
-      <button type="button" name="button" id="sample">3</button>
-      <button type="button" name="button" id="sample">4</button>
-      <button type="button" name="button" id="sample">5</button>
-      <button type="button" name="button" id="sample">6</button>
-      <button type="button" name="button" id="sample">7</button>
-      <button type="button" name="button" id="sample">8</button>
-
+      <button type="button" name="button" id="sample" ng-click="moveBlock(nodes[0][0])">{{nodes[0][0].value}}</button>
+      <button type="button" name="button" id="sample" ng-click="moveBlock(nodes[0][1])">{{nodes[0][1].value}}</button>
+      <button type="button" name="button" id="sample" ng-click="moveBlock(nodes[0][2])">{{nodes[0][2].value}}</button>
+      <button type="button" name="button" id="sample" ng-click="moveBlock(nodes[1][0])">{{nodes[1][0].value}}</button>
+      <button type="button" name="button" id="sample" ng-click="moveBlock(nodes[1][1])">{{nodes[1][1].value}}</button>
+      <button type="button" name="button" id="sample" ng-click="moveBlock(nodes[1][2])">{{nodes[1][2].value}}</button>
+      <button type="button" name="button" id="sample" ng-click="moveBlock(nodes[2][0])">{{nodes[2][0].value}}</button>
+      <button type="button" name="button" id="sample" ng-click="moveBlock(nodes[2][1])">{{nodes[2][1].value}}</button>
+      <button type="button" name="button" id="sample" ng-click="moveBlock(nodes[2][2])">{{nodes[2][2].value}}</button>
     </div>
 
 
@@ -25,5 +25,8 @@
     <script type="text/javascript" src="./bower_components/bootstrap/dist/js/bootstrap.js"></script>
     <script type="text/javascript" src="./bower_components/angular/angular.js"></script>
     <script type="text/javascript" src="./scripts/scripts.js"></script>
+    <script type="text/javascript" src="./scripts/sliderpuzzle.js"></script>
+
+    </script>
   </body>
 </html>
