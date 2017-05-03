@@ -1,0 +1,12 @@
+.slidingpuzzleContainer{
+  width: 320px;
+  height: 300px;
+  border: 2px solid black;
+  overflow: hidden;
+
+}
+
+#sample{
+  width: 100px;
+  height: 100px;
+}

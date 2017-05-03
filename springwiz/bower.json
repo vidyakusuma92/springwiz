@@ -1,0 +1,18 @@
+{
+  "name": "springwiz",
+  "description": "sliding puzzle",
+  "main": "index.html",
+  "keywords": [
+    "srpingwiz"
+  ],
+  "authors": [
+    "vidya"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "font-awesome": "fontawesome#^4.7.0",
+    "angular": "angularjs#^1.6.4"
+  }
+}
